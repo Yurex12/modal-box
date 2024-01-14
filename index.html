@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal tutorial</title>
+
+    <link rel="stylesheet" href="input.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button data-modal-target="#modal" class="modal-open-btn">
+      Open Modal1
+    </button>
+
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <h1 class="title">Modal 1</h1>
+        <button class="close-btn" data-close-btn>&times;</button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae
+        nostrum excepturi minus qui aliquid sint maxime mollitia porro
+        necessitatibus temporibus illo officia provident iusto reprehenderit
+        consequatur consequuntur natus perspiciatis, repellendus quod eos!
+        Aperiam accusamus nam voluptatibus perferendis aliquam quas fugit
+        eveniet esse in quis, repellendus soluta consequatur culpa eligendi
+        consectetur veniam cupiditate quia a harum, cumque voluptates
+        repudiandae facere nesciunt fugiat. Eaque tempore id quaerat modi quia
+        deserunt, error dolorem nostrum, unde, quas accusamus quos minus
+        perspiciatis. Minus, natus.
+      </div>
+    </div>
+
+    <button data-modal-target="#modal2" class="modal-open-btn">
+      Open Modal2
+    </button>
+
+    <div class="modal" id="modal2">
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et beatae
+        nostrum excepturi minus qui aliquid sint maxime mollitia porro
+        necessitatibus temporibus illo officia provident iusto reprehenderit
+        consequatur consequuntur natus perspiciatis, repellendus quod eos!
+        Aperiam accusamus nam voluptatibus perferendis aliquam quas fugit
+        eveniet esse in quis, repellendus soluta consequatur culpa eligendi
+        consectetur veniam cupiditate quia a harum, cumque voluptates
+        repudiandae facere nesciunt fugiat. Eaque tempore id quaerat modi quia
+        deserunt, error dolorem nostrum, unde, quas accusamus quos minus
+        perspiciatis. Minus, natus.
+      </div>
+
+      <div class="modal-header">
+        <h1 class="title">Modal 2</h1>
+        <button class="close-btn" data-close-btn>&times;</button>
+      </div>
+    </div>
+
+    <button data-modal-target="#modal3" class="modal-open-btn">
+      Open Modal3
+    </button>
+
+    <div class="modal" id="modal3">
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+        <div class="modal-header">
+          <h1 class="title">Modal 3</h1>
+          <button class="close-btn" data-close-btn>&times;</button>
+        </div>
+        excepturi. nostrum, unde, quas accusamus quos minus perspiciatis. Minus,
+        natus.
+      </div>
+    </div>
+
+    <button data-modal-target="#modal4" class="modal-open-btn">
+      Open Modal4
+    </button>
+
+    <div class="modal" id="modal4">
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+        <div class="modal-header">
+          <h1 class="title">Modal 4</h1>
+          <button class="close-btn" data-close-btn>&times;</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+  </body>
+</html>
